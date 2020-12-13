@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment8</title>
+</head>
+<body bgcolor="skyblue">
+    <h1>My Bio Data</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" id="FirstName"
+        placeholder="First Name" required>
+
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="LastName" id="LastName"
+        placeholder="Last Name" required>
+
+        <br><br>
+
+        <label for="radio">Gender:</label>
+        <br>
+        <label for="radio">Female</label>
+        <input type="radio" name="radio" id="radio">
+        &nbsp; &nbsp; &nbsp;
+        <label for="radio">Male</label>
+        <input type="radio" name="radio" id="radio">
+        &nbsp; &nbsp; &nbsp;
+        <label for="radio"> Other</label>
+        <input type="radio" name="radio" id="radio">
+        <br>
+        <br>
+
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob">
+        
+        <br><br>
+
+        <label for="email">Email Id:</label>
+        <input type="email" name="email" id="email"
+        placeholder="example@gmail.com" required>
+        
+        <br><br>
+
+        <label for="phone">Phone No.</label>
+        <input type="tel" name="phone" id="phone"
+        placeholder="+91" required pattern="[1-9]{1}[0-9]{9}">
+
+        <br><br>
+
+       <label for="height">Height:</label>
+        <input type="number" name="height" id="height"
+        placeholder="in cms">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+
+            <label for="sn">School Name</label>
+            <input type="text" name="sn" id="sn" 
+            placeholder="Name Of Your School">
+            
+            <br><br>
+
+            <label for="class">Class</label>
+            <input type="number" name="class" id="class">
+
+            <br><br>
+
+            <label for="stream">Stream</label>
+            <select name="stream" id="stream">
+                <option value="1">Medical</option>
+                <option value="2">Non-Medical</option>
+                <option value="3">Computer</option>
+                <option value="1">Science</option>
+            </select>
+
+            <br><br>
+
+            <label for="ms">Last Marksheet</label>
+            <br><br>
+            <input type="file" name="ms" id="ms">
+
+        </fieldset>
+
+        <input type="submit" value="Submit">
+
+
+    </form>
+</body>
+</html>
