@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9</title>
+</head>
+<body bgcolor="violet">
+    <h2>Hotel Reservation Website</h2>
+    <h3>Important</h3>
+   <h4> Choose The Appropriate options and enter the proper details</h4>
+   <h4>* Required Details</h4>
+   <br>
+    <form>
+        <fieldset>
+            <legend>General Information</legend>
+            <label for="date">Arrival Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+            <label for="nights">Nights:</label>
+            <input type="number" name="nights" id="nights" required>
+            <br><br>
+            <label for="adults">No. of Adults</label>
+            <select id="adults" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br>
+            <label for="children">No. of Children</label>
+            <select id="children" name="children" required>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="room">Room Type: </label><br><br>
+            Standard
+            <input type="radio" name="room" id="room">
+          <br>   Business
+            <input type="radio" name="room" id="room">
+           <br> Suite &nbsp; &nbsp; &nbsp;
+            <input type="radio" name="room" id="room">
+       <br><br>
+        <label for="bed">Bed Type: </label><br><br>
+        King Bed
+        <input type="radio" name="bed" id="bed">
+        &nbsp;&nbsp;&nbsp;
+        Double Bed
+        <input type="radio" name="bed" id="bed">
+        <br><br>
+        <label for="cb">Smoking</label>
+        <input type="checkbox" name="cb" id="cb">
+        <br><br>
+        <label for="dl">Choose your Food Type</label>
+    <input type="text" list="dl">
+    <datalist id="dl">
+        <option>Veg</option>
+        <option>Non-Veg</option>
+        <option>Both</option>
+    </datalist>
+        </fieldset>
+        <br><br><br><br>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="tel">Phone</label>
+            <input type="tel" name="tel" id="tel" required
+            pattern="[1-9]{1}[0-9]{9}">
+            <br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" required>
+            <br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Distance Information</legend>
+            <label for="fuel">fuel meter  
+            </label>
+            <meter id="fuel" name="fuel" max="100" min="0" low="30"
+             high="60" optimum="80" value="70"></meter>
+            <br><br>
+
+            <label for="prog">Progress Bar</label>
+            <progress min="0" max="100" value="58" id="prog"></progress>
+            <br><br>
+
+            <label for="text">Write About the place you are Visiting
+             </label>
+            <br>
+            <textarea name="text" id="text" cols="40" rows="5" 
+            placeholder="Enter your Visiting Details"></textarea>
+        </fieldset>
+        <br><br>
+
+        <input type="submit" >
+    </form>
+</body>
+</html>
