@@ -1,0 +1,68 @@
+.mfs {
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 45px;
+    color: floralwhite;
+    background-color: rgb(255, 5, 130);
+    text-align: center;
+}
+a {
+   font-size: 22px;
+   text-decoration: none;
+   color: darkred;
+}
+
+.link {
+    background-color: springgreen;
+    text-align: center;
+}
+
+.sm {
+    color: #ec0000;
+    font-family: 'Risque', cursive;
+}
+
+.d1 {
+    text-align: left;
+}
+
+.d1 p {
+    letter-spacing: 2px;
+    text-indent: 100px;
+}
+
+.ca {
+    text-decoration: overline;
+    color: #042bdb;
+    font-family: 'Risque', cursive;
+}
+
+.d2 {
+    text-align: right;
+}
+
+.d2 p {
+    line-height: 2;
+    word-spacing: 5px;
+}
+
+.im {
+    text-align: center;
+    background-color: gold;
+    color: darkmagenta;
+}
+
+.d3 {
+    text-align: center;
+}
+
+.d3 p {
+    text-decoration: line-through;
+}
+
+.lorem {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+
+
