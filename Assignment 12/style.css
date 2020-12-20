@@ -1,0 +1,71 @@
+body {
+   background-color: #000000; 
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    text-shadow: 2px 2px 1px #ff0000, 
+      3px 5px 1px #FF7F00, 
+      4px 8px 1px #FFFF00,
+      5px 11px 1px #00FF00,
+      6px 14px 1px #0000FF,
+      7px 17px 1px #4B0082,
+      8px 20px 1px #9400D3;
+      font-family: 'Rubik', sans-serif;
+      text-align: center;
+      letter-spacing: 4px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em blue, 0 0 0.2em blue;
+    font-family: 'Acme', sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    color: springgreen;
+    font-family: 'Piazzolla', serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em gold, 0 0 0.2em gold;
+}
+
+p {
+    color: #f4caff;
+    font-size: 18px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.s1 {
+    color: deepskyblue;
+    text-shadow: 1px 1px 2px deepskyblue;
+}
+
+.s2 {
+    color: lime;
+    text-shadow: 1px 1px 2px lime;
+}
+
+.s3 {
+    color: deeppink;
+    text-shadow: 1px 1px 2px deeppink;
+}
+
+.s4 {
+    color: aquamarine;
+    text-shadow: 1px 1px 2px aquamarine;
+}
+
+.s5 {
+    color: aqua;
+    text-shadow: 1px 1px 2px aqua;
+}
+
+.s6 {
+    color: red;
+    text-shadow: 1px 1px 2px orangered;
+}
