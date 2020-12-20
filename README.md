@@ -1,2 +1,2 @@
 # assignment
-This is my assignments Repository.
+This is my Web Development assignment Repository.
