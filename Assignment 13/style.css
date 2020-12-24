@@ -1,0 +1,128 @@
+body {
+    background-color: springgreen;
+    font-family: 'Piazzolla', serif;
+}
+
+header {
+    background-color: ghostwhite;
+    padding: 5px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header a {
+    font-weight: 500;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.me {
+    background-color: ghostwhite;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 25px;
+    min-height: 230px;
+}
+
+img {
+    border: 12px solid rgb(198, 255, 255);
+    border-radius: 10px;
+}
+
+.me div {
+    float: left;
+}
+
+.text {
+    padding-left: 6%;
+}
+
+.text h1 {
+    color: springgreen;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.text h3 {
+    letter-spacing: 1.4px;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    font-weight: 100;
+    color: rgb(52, 173, 47);
+    margin: 10px 0px;
+}
+
+.text h4 {
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+.text .a1 {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.vp {
+    border: 2px solid springgreen;
+    border-radius: 5px;
+    padding: 6px;
+    color: springgreen;
+    text-decoration: none;
+}
+
+.vp:hover {
+    background-color: springgreen;
+    color: ghostwhite;
+}
+
+.about {
+    background-color: ghostwhite;
+    padding: 5px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about h2 {
+    padding-left: 25px;
+}
+
+.about p {
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.projects {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: ghostwhite;
+    padding-left: 25px;
+    padding-top: 12px;
+    padding-bottom: 35px;
+}
+
+.projects a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.lang {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: ghostwhite;
+    padding-left: 25px;
+    padding-top: 12px;
+    padding-bottom: 35px;
+}
