@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(12, 15, 15);
+    font-family: 'Josefin Sans', sans-serif;
+    color: azure;
+    border:20px ;
+    border-style: groove;
+    border-color: blue;
+    text-align: center;
+    background-image: url(https://lh3.googleusercontent.com/zC6UYqI1d-wCePDV-W2F6Yz4vMlg8EI972fqjUolgHsJVdzcn-ojWJ9qzaLIxQ1_LP5_chrkBfltgBS4o46HIAlPqp2zfTo7nZbOAk1LZqdUENM24ajjBVocpwRaFK9DYd85fKClRskQUtUzNGiwvWUUPahY_XhxtkkYixf3I5zR9AAVodjOwsTO6NzJ3Hgvm9FGVXzZpAtRhnDxhclYVwXtuKc4oaJ3Y1c_q_4lYMW3mk1Mdhb_quFLepy5nDg-LbnZhiDtmoCEiP1aORKws44ogkFofyCU9vwbFPg9fuO_gkXV9Of7-Qj_aOu8ylfkfWmGJFF4YBIEJiEtlRHHc2A8AC_2DsrSskWQFzCklhXqENzLUHuaDZZQHhzxh_D2JWWhYTzQKTifglyuQeqcWyrlc-brSMabj5YJ9knGMUsZ3hH89mX0xx8qPWcrjX5bVxT8QbRlJaTjUHzyEfXJGgaJa90vbv6-PCkZQj1SFzsA1HvIm1AFmzfr0YhJK83MSJf2A2LUEFjANzF-KV566sa3_We_s68zpgplntazX0JUqd8IUqjoYph5k6Wr_Kde8xbXIlLqvAO05eC0TtEOm30_HCzjd9buFFJtJA60SjL9fJD5Pwn8QAYXuAyXlx30TSuN3GicxQPq0NmeKwz0ziBeswLbcD7pt6RVwq4BHu5gbLlE8-JmbIypWSc=w937-h898-no?authuser=3);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+   font-size: 35px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    border: 16px double rgb(255, 61, 3);
+    padding: 10px;
+}
+
+img {
+    height: 150px;
+    border-top: dashed blue 5px;
+    border-bottom: dashed blue 5px;
+    border-left: blue solid 5px;
+    border-right: blue solid 5px;
+}
