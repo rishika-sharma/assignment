@@ -1,0 +1,44 @@
+body {
+    margin: 100px 400px;
+}
+
+img {
+    height: 50px;
+}
+
+form {
+    text-align: center;
+    border: 1px solid darkgray;
+    padding: 30px;
+}
+
+p {
+    color: gray;
+    font-size: 15px;
+}
+
+input {
+    color: rgb(187, 0, 146);
+    padding: 5px;
+}
+
+input:hover {
+    background-color: gold;
+    box-shadow: wheat 3px 3px 3px;
+    padding: 8px;
+}
+
+#create {
+    font-size: 20px;
+}
+
+#create:hover {
+    color: gold;
+    background-color: rgb(187, 0, 146);
+    padding: 10px;
+    border-radius: 18px;
+}
+
+input[type="radio"]:focus {
+    box-shadow: yellow 2px 2px 2px;
+}
