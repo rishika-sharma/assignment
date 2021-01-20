@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    border: 20px ridge hotpink;
+    margin: 50px;
+}
+
+img {
+    border: 8px solid aqua;
+}
+
+h2 {
+    color: deeppink;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px 576px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+h2:hover{
+    background-color: aqua;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-weight: bolder
+}
+
+figcaption {
+    color: deeppink;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px 576px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+figcaption:hover {
+    background-color: aqua;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-weight: bolder;
+}
+
+div.para p:first-child {
+    font-family: cursive;
+}
+
+div.para p:first-child:hover {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: blue;
+}
+
+div.para p:last-child {
+    font-family: monospace;
+    font-size: 15px;
+    color: rgb(101, 0, 196);
+    font-weight: bolder;
+}
+
+div.para p:last-child:hover {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    background-color: rgb(255, 137, 225);
+    color: rgb(79, 0, 153);
+}
+
+.fact p:first-child {
+    color: rgb(17, 0, 255);
+    background-color: rgb(228, 160, 255);
+}
+
+em {
+    color: orangered;
+}
+
+.fact p:last-child {
+    background-color: rgb(189, 255, 255);
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contenteditable {
+    color: crimson;
+}
+
+.contenteditable:focus {
+    color: deeppink;
+    background-color: rgb(189, 255, 255);
+    font-weight: bolder;
+    border-color: rgb(255, 126, 191);
+    border: 5px solid;
+    font-family: cursive;
+}
+
+input:valid + label::after{
+    content: ' Correct Guess';
+}
+
+input:valid + label::before{
+    content: ' ✔';
+}
+
+
+input:invalid + label::after{
+    content: ' Wrong Guess';
+}
+
+input:invalid + label::before{
+    content: ' ❌';
+}
+
+input:focus {
+    box-shadow: 5px 5px 2px hotpink;
+}
+
+input:valid {
+    background-color: lime; 
+    font-family: cursive;
+}
+
+input:invalid {
+    background-color: rgb(255, 0, 0);
+    color: white; 
+    font-family: monospace;
+}
