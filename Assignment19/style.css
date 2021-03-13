@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    transition-duration: 2000ms;
+}
+
+img {
+    background-color: white;
+    height: 180px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 32px;
+    border: 10px groove;
+}
+
+h1 {
+    font-size: 35px;
+    color: hotpink;
+    margin: 50px;
+    position: relative;
+    left: 25px;
+}
+
+.card {
+    background-color: rgb(245, 188, 255);
+    width: 260px;
+    height: 350px;
+    margin: 5%;
+    border-radius: 25px;
+    border: 3px solid hotpink;
+    box-shadow: 10px 10px 12px rgb(141, 141, 141);
+    transition-duration: 800ms;
+}
+
+.card:hover {
+    transform: translate(-15px,-15px);
+    box-shadow: 20px 20px 20px rgb(141, 141, 141);
+}
+
+.card:active {
+    transform: translate(10px,10px);
+    transition-duration: 50ms;
+    box-shadow: 3px 3px 3px rgb(141, 141, 141);
+}
+
+h2 {
+    margin: 0px;
+    position: relative;
+    top: 45px;
+    left: 70px;
+}
+
+.st {
+    width: 25vw;
+    height: 400px;
+    border: 10px double white;
+    margin: 25px;
+}
+
+.st1{
+    background-color: #1bd742;
+    transition-duration: 2500ms;
+    transition-delay: 1s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 0px;
+    transition-timing-function: cubic-bezier(0.76, 0.81, 0, 1.31);
+}
+
+
+.st2{
+    background-color: #fe0000;
+    transition-duration: 2500ms;
+    transition-delay: 1s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 0px;
+    transition-timing-function: cubic-bezier(0.76, 0.81, 0, 1.31);
+}
+
+
+.st3{
+    background-color: #8a9cfe;
+    transition-duration: 2500ms;
+    transition-delay: 1s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 0px;
+    transition-timing-function: cubic-bezier(0.76, 0.81, 0, 1.31);
+}
+
+.box {
+    border: 3px solid white;
+    margin: 25px;
+}
+
+.st:hover .st1{
+    background-color: #1bd742;
+    transition-duration: 2500ms;
+    transition-delay: 1s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    transition-timing-function: cubic-bezier(0.76, 0.81, 0, 1.31);
+}
+
+.st:hover .st2{
+    background-color: #fe0000;
+    transition-duration: 2500ms;
+    transition-delay: 1s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 260px;
+    transition-timing-function: cubic-bezier(0.76, 0.81, 0, 1.31);
+}
+
+.st:hover .st3{
+    background-color: #8a9cfe;
+    transition-duration: 2500ms;
+    transition-delay: 1s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 200px;
+    transition-timing-function: cubic-bezier(0.76, 0.81, 0, 1.31);
+}
