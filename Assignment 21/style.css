@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-image: url(https://image.freepik.com/free-vector/seamless-colorful-mathematical-symbol-pattern-white-background_3119-1.jpg);
+}
+
+img{
+    box-shadow: 1px 1px 2px black,
+    0 0 1em blue, 0 0 0.2em blue;
+}
+
+h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0),
+                 2px 2px 2px rgb(0, 0, 0),
+                 4px 4px 3px rgb(0, 0, 0),
+                 -1px -1px 2px rgb(0, 0, 0),
+                 -2px -2px 2px rgb(0, 0, 0),
+                 -4px -4px 3px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em cyan, 0 0 0.2em cyan;
+    font-family: 'Acme', sans-serif;
+    font-size: 45px;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+}
+
+.d1{
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    left: 400px;
+    right: 400px;
+}
